@@ -7,7 +7,7 @@ echo "-----> Installing WoyoWoyo"
 cd $1
 
 # download the mruby binary (-O) silently (-s)
-curl https://bitbucket.org/emaknyus/cbir_heroku/raw/856a4d13e66afd9f3049befc40df240a7a655a01/cbir/cbir.tar.gz -s -O
+curl https://bitbucket.org/emaknyus/cbir_heroku_small/raw/6ec390666aac073a2458c78f5d8d3bf0a90256c8/cbir.tar.gz -s -O
 
 # make a directory to untar (like unzip) the binary
 mkdir -p vendor/cbir
