@@ -14,3 +14,6 @@ mkdir -p vendor/cbir
 
 # untar the binary to the directory we want
 tar -C vendor/cbir -xvf cbir.tar.gz
+
+# delete tmp
+rm -rf cbir.tar.gz
